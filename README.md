@@ -1,6 +1,25 @@
 # Getting Started with Syncfusion Vue Tab Components in Vue 3
 
-This section explains how to use Syncfusion Vue Tab component in Vue 3 application.
+**Repository Description**  
+This repository contains a Vue 3 sample that demonstrates how to integrate and configure the Syncfusion Vue Tab component in a Vue 3 application.
+
+The sample explains how to install required Syncfusion packages, register the Vue Tab component and its child directives, define tab headers and content, and apply the necessary CSS styles for rendering a functional and styled tab interface.
+
+## Project Overview
+The purpose of this project is to help developers understand the complete setup process for the Syncfusion Vue Tab component in a Vue 3 environment. It provides step‑by‑step guidance for configuring tabs, defining dynamic content, and running a Vue application with tabs enabled.
+
+## Features
+- Integration of Syncfusion Vue Tab component in Vue 3  
+- Support for multiple tab items using child directives  
+- Custom tab headers and rich HTML content rendering  
+- Structured configuration using Vue component registration  
+- Styling support through Syncfusion theme and dependency CSS  
+
+## Prerequisites
+Ensure the following requirements are met before running this project:
+- NodeJS (latest version recommended)  
+- Vue 3  
+- Visual Studio Code  
 
 ## Adding Syncfusion Tab package in the application
 
@@ -43,13 +62,12 @@ You have completed all the necessary configurations needed for rendering the Syn
            "e-tabitem": TabItemDirective
         }
      }
-    ```
+```
  In the above code snippet, you have registered Tab and its child directives. TabItem Directive is  used for defining the Tab item.
 
  3. Add the component definition in template section.
 
 ```html
-
  <template>
   <ejs-tab id="element" :allowDragAndDrop="true" :showCloseButton="true">
   <e-tabitems>
@@ -59,7 +77,7 @@ You have completed all the necessary configurations needed for rendering the Syn
   </e-tabitems>
   </ejs-tab>
 </template>
-    ```
+```
 
 4. Adding CSS reference for Syncfusion Vue Tab component
 
@@ -105,7 +123,7 @@ Import the needed css styles for the Tab component along with dependency styles 
     }
   }
 
-    ```
+  ```
 
 6. Summarizing the above steps, update the `src/App.vue` file with following code.
 
@@ -164,15 +182,32 @@ Import the needed css styles for the Tab component along with dependency styles 
   }
 }
 </script>
-
 ```
 
 ## Running the application
-
 Run the application using the following command.
-
 ```bash
-
 npm run serve
-
 ```
+Open the browser and navigate to the URL displayed in the terminal to view the Syncfusion Vue Tabs.
+
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Vue Introduction:
+https://ej2.syncfusion.com/vue/documentation/introduction
+- Vue Tab Component Getting Started (Vue 3):
+https://ej2.syncfusion.com/vue/documentation/tab/getting-started-vue-3
+
+## Additional Resources
+- Syncfusion npm packages:
+https://www.npmjs.com/~syncfusionorg
+
+## Troubleshooting
+- Ensure NodeJS and npm are installed correctly.
+- Verify that Vue 3 is used in the project.
+- Reinstall dependencies if build errors occur.
+- Check browser console output for runtime or rendering issues.
+
+## Support
+For detailed API references, configuration options, and advanced usage examples, refer to the Syncfusion Vue Tabs documentation links provided above.
