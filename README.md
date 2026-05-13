@@ -1,6 +1,5 @@
 # Getting Started with Syncfusion Vue Tab Components in Vue 3
 
-**Repository Description**  
 This repository contains a Vue 3 sample that demonstrates how to integrate and configure the Syncfusion Vue Tab component in a Vue 3 application.
 
 The sample explains how to install required Syncfusion packages, register the Vue Tab component and its child directives, define tab headers and content, and apply the necessary CSS styles for rendering a functional and styled tab interface.
